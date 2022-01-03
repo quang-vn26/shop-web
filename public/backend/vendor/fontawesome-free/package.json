@@ -58,7 +58,7 @@
   "deprecated": false,
   "description": "The iconic font, CSS, and SVG framework",
   "engines": {
-    "node": ">=6"
+    "node": ">=12"
   },
   "homepage": "https://fontawesome.com",
   "keywords": [
