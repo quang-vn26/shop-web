@@ -26,6 +26,13 @@ class UsersTableSeeder extends Seeder
                 'role'=>'user',
                 'status'=>'active'
             ),
+            array(
+                'name'=>'Seller',
+                'email'=>'seller@gmail.com',
+                'password'=>Hash::make('1111'),
+                'role'=>'seller',
+                'status'=>'active'
+            ),
         );
 
         DB::table('users')->insert($data);
