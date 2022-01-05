@@ -1,14 +1,14 @@
- npm run watch
- php artisan serve
- php artisan storage:link
- php artisan view:clear
+npm run watch
+php artisan serve
+php artisan storage:link
+php artisan view:clear
 
- vs code: ctr+p to find file
- heroku pg:credentials:url
- heroku config:add DB_CONNECTION=pgsql
- heroku config:add DB_HOST=....
- heroku config:add DB_PORT = 5432
- heroku config:add DB_DATABASE=....
- DB_Username ===.. DB_Username
- DB+pass=....
- php artisan make:auth
+vs code: ctr+p to find file
+xu ly heroku 
+heroku login
+-xoa thu muc public/storage roi chay 
+git add .
+git commit -m "setup img"
+git push heroku master
+
+heroku run php artisan migrate
