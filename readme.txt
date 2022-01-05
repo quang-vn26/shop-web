@@ -11,4 +11,4 @@ git add .
 git commit -m "setup img"
 git push heroku master
 
-heroku run php artisan migrate
+heroku run php artisan storage:link
